@@ -1,0 +1,22 @@
+[project]
+name = "medical_chatbot"
+version = "0.1.0"
+description = "Medical chatbot with LangChain and Flask"
+authors = [{ name = "Daksh Jain", email = "0408jaindaksh@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "langchain==0.3.26",
+    "langchain-pinecone==0.2.8",
+    "langchain-openai==0.3.24",
+    "flask==3.1.1",
+    "sentence-transformers==2.7.0",
+    "pypdf==5.6.1",
+    "python-dotenv==1.1.0",
+    "langchain-community==0.3.26",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

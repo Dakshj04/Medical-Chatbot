@@ -6,6 +6,28 @@ __pycache__/
 # C extensions
 *.so
 
+.venv/
+medibot/
+env/
+# Virtual environments
+.venv/
+medibot/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# Logs / junk
+*.log
+.DS_Store
+
 # Distribution / packaging
 .Python
 build/
